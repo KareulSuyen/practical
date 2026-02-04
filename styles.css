@@ -1,0 +1,95 @@
+* {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+html, body {
+    background: url('../Images/bgimg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+
+}
+.business-center {
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.452);
+    width: 90vw;
+    color: white;
+    height: 95vh;
+    margin: auto;
+    overflow-y: auto;
+    box-shadow: 0 0 10px 10px rgba(20, 35, 41, 0.541);
+}
+
+table {
+    padding: 10px;
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid rgba(243, 223, 223, 0.178);
+    border-radius: 10px;
+}
+
+.student-img {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.student-img img {
+    margin-right: 8px;
+}
+
+table img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+th {
+    background-color: rgba(0, 0, 0, 0.438);
+    font-size: 1.3rem;
+    padding: 1.5rem;
+    text-wrap: nowrap;      
+}
+td {
+    background-color: rgba(12, 17, 22, 0.863);
+    font-size: 1.2rem;
+    padding: 1.5rem;
+    text-wrap: nowrap;      
+}
+
+h1 {
+    margin-left: 2rem;
+    color: rgb(185, 206, 212);
+    text-align: left;
+}
+
+.cancelled {
+    color: rgb(190, 43, 43);
+        text-align: center;
+
+}
+
+.confirmed {
+    color: rgb(127, 194, 221);
+        text-align: center;
+
+}
+
+.ready {
+    color: green;
+    text-align: center;
+}
+
+.ready {
+    text-align: center;
+}
+
+.nalaglag {
+    color: red;
+}
